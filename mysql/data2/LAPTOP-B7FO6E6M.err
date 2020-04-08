@@ -1,0 +1,640 @@
+2020-03-06T01:00:32.307966Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2020-03-06T01:00:32.328982Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2020-03-06T01:00:32.407960Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: e136f53e-5f45-11ea-a1d1-8cebf6116ff9.
+2020-03-06T01:00:32.422917Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2020-03-06T01:00:32.436873Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2020-03-06T01:01:50.739836Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:01:50.739836Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:01:50.740835Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 2244 ...
+2020-03-06T01:01:50.748778Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:01:50.749809Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:01:50.749809Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:01:50.750814Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:01:50.751803Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:01:50.752801Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:01:50.754794Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:01:50.760780Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:01:50.780296Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-06T01:01:50.825341Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-06T01:01:50.826369Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-06T01:01:50.833449Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-06T01:01:50.835445Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-06T01:01:50.836442Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-06T01:01:50.837440Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-06T01:01:50.888970Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535558
+2020-03-06T01:01:50.892966Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-06T01:01:50.892966Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:01:50.920892Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-06T01:01:50.925877Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-06T01:01:50.927871Z 0 [Note] IPv6 is available.
+2020-03-06T01:01:50.929865Z 0 [Note]   - '::' resolves to '::';
+2020-03-06T01:01:50.930862Z 0 [Note] Server socket created on IP: '::'.
+2020-03-06T01:01:50.932857Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2020-03-06T01:01:50.932857Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200306  9:01:50
+2020-03-06T01:01:50.933854Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2020-03-06T01:01:50.936846Z 0 [ERROR] Aborting
+
+2020-03-06T01:01:50.937844Z 0 [Note] Binlog end
+2020-03-06T01:01:50.937844Z 0 [Note] Shutting down plugin 'ngram'
+2020-03-06T01:01:50.938841Z 0 [Note] Shutting down plugin 'partition'
+2020-03-06T01:01:50.939838Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-03-06T01:01:50.940835Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-03-06T01:01:50.941833Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-03-06T01:01:50.942830Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-03-06T01:01:50.942830Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-03-06T01:01:50.943827Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-03-06T01:01:50.944825Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-03-06T01:01:50.945822Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-03-06T01:01:50.946819Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-03-06T01:01:50.947816Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-03-06T01:01:50.947816Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-03-06T01:01:50.948814Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-03-06T01:01:50.949811Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-03-06T01:01:50.950808Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-03-06T01:01:50.950808Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-03-06T01:01:50.951806Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-03-06T01:01:50.952803Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-03-06T01:01:50.952803Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-03-06T01:01:50.953800Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-03-06T01:01:50.954798Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-03-06T01:01:50.954798Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-03-06T01:01:50.955795Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-03-06T01:01:50.956792Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-03-06T01:01:50.956792Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-03-06T01:01:50.957790Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-03-06T01:01:50.958787Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-03-06T01:01:50.958787Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-03-06T01:01:50.959784Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-03-06T01:01:50.959784Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-03-06T01:01:50.960782Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-03-06T01:01:50.960782Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-03-06T01:01:50.961779Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-03-06T01:01:50.962776Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-03-06T01:01:50.962776Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-03-06T01:01:50.963774Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-03-06T01:01:50.963774Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-03-06T01:01:50.964771Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-03-06T01:01:50.964771Z 0 [Note] InnoDB: Starting shutdown...
+2020-03-06T01:01:51.067132Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:01:51.071983Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200306  9:01:51
+2020-03-06T01:01:52.224550Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2535577
+2020-03-06T01:01:52.228541Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-06T01:01:52.232528Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-03-06T01:01:52.234523Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:01:52.236517Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-03-06T01:01:52.238512Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-03-06T01:01:52.240507Z 0 [Note] Shutting down plugin 'binlog'
+2020-03-06T01:01:52.241503Z 0 [Note] MySQL: Shutdown complete
+
+2020-03-06T01:02:28.927659Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:02:28.927659Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:02:28.927659Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 10784 ...
+2020-03-06T01:02:28.934632Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:02:28.935637Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:02:28.935637Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:02:28.936627Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:02:28.937623Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:02:28.938622Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:02:28.940618Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:02:28.945605Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:02:28.966527Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-06T01:02:29.013748Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-06T01:02:29.015780Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-06T01:02:29.023837Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-06T01:02:29.024870Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-06T01:02:29.025870Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-06T01:02:29.026865Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-06T01:02:29.079663Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535577
+2020-03-06T01:02:29.081702Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:02:29.081702Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-06T01:02:29.112616Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-06T01:02:29.114612Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200306  9:02:29
+2020-03-06T01:02:29.117606Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-06T01:02:29.122593Z 0 [Note] IPv6 is available.
+2020-03-06T01:02:29.123594Z 0 [Note]   - '::' resolves to '::';
+2020-03-06T01:02:29.124583Z 0 [Note] Server socket created on IP: '::'.
+2020-03-06T01:02:29.126582Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2020-03-06T01:02:29.127578Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2020-03-06T01:02:29.129562Z 0 [ERROR] Aborting
+
+2020-03-06T01:02:29.130554Z 0 [Note] Binlog end
+2020-03-06T01:02:29.130554Z 0 [Note] Shutting down plugin 'ngram'
+2020-03-06T01:02:29.131555Z 0 [Note] Shutting down plugin 'partition'
+2020-03-06T01:02:29.132549Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-03-06T01:02:29.133545Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-03-06T01:02:29.134542Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-03-06T01:02:29.135540Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-03-06T01:02:29.136539Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-03-06T01:02:29.137536Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-03-06T01:02:29.138502Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-03-06T01:02:29.138502Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-03-06T01:02:29.139526Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-03-06T01:02:29.140519Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-03-06T01:02:29.141517Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-03-06T01:02:29.142519Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-03-06T01:02:29.142519Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-03-06T01:02:29.143527Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-03-06T01:02:29.144516Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-03-06T01:02:29.144516Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-03-06T01:02:29.145516Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-03-06T01:02:29.146516Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-03-06T01:02:29.147514Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-03-06T01:02:29.147514Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-03-06T01:02:29.148507Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-03-06T01:02:29.149507Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-03-06T01:02:29.149507Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-03-06T01:02:29.150502Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-03-06T01:02:29.151499Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-03-06T01:02:29.151499Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-03-06T01:02:29.152494Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-03-06T01:02:29.152494Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-03-06T01:02:29.153462Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-03-06T01:02:29.154491Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-03-06T01:02:29.154491Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-03-06T01:02:29.155488Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-03-06T01:02:29.155488Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-03-06T01:02:29.156454Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-03-06T01:02:29.156454Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-03-06T01:02:29.157451Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-03-06T01:02:29.157451Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-03-06T01:02:29.158447Z 0 [Note] InnoDB: Starting shutdown...
+2020-03-06T01:02:29.260348Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:02:29.266150Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200306  9:02:29
+2020-03-06T01:02:30.415368Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2535596
+2020-03-06T01:02:30.419352Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-06T01:02:30.422308Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-03-06T01:02:30.425317Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:02:30.427300Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-03-06T01:02:30.430319Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-03-06T01:02:30.432313Z 0 [Note] Shutting down plugin 'binlog'
+2020-03-06T01:02:30.434308Z 0 [Note] MySQL: Shutdown complete
+
+2020-03-06T01:02:53.880225Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:02:53.880225Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:02:53.880225Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 19044 ...
+2020-03-06T01:02:53.887206Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:02:53.888203Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:02:53.888203Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:02:53.889200Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:02:53.890166Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:02:53.891195Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:02:53.893158Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:02:53.899174Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:02:53.917686Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-06T01:02:53.962907Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-06T01:02:53.962907Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-06T01:02:53.970956Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-06T01:02:53.971988Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-06T01:02:53.972987Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-06T01:02:53.973983Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-06T01:02:54.025892Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535596
+2020-03-06T01:02:54.026703Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:02:54.026703Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-06T01:02:54.035650Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-06T01:02:54.037672Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-06T01:02:54.038641Z 0 [Note] IPv6 is available.
+2020-03-06T01:02:54.039689Z 0 [Note]   - '::' resolves to '::';
+2020-03-06T01:02:54.040636Z 0 [Note] Server socket created on IP: '::'.
+2020-03-06T01:02:54.040636Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2020-03-06T01:02:54.042661Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2020-03-06T01:02:54.042661Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200306  9:02:54
+2020-03-06T01:02:54.043656Z 0 [ERROR] Aborting
+
+2020-03-06T01:02:54.044656Z 0 [Note] Binlog end
+2020-03-06T01:02:54.045621Z 0 [Note] Shutting down plugin 'ngram'
+2020-03-06T01:02:54.046619Z 0 [Note] Shutting down plugin 'partition'
+2020-03-06T01:02:54.046619Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-03-06T01:02:54.047616Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-03-06T01:02:54.048613Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-03-06T01:02:54.049611Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-03-06T01:02:54.050608Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-03-06T01:02:54.050608Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-03-06T01:02:54.051605Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-03-06T01:02:54.052603Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-03-06T01:02:54.053600Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-03-06T01:02:54.054597Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-03-06T01:02:54.055595Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-03-06T01:02:54.056592Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-03-06T01:02:54.056592Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-03-06T01:02:54.057589Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-03-06T01:02:54.058587Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-03-06T01:02:54.059584Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-03-06T01:02:54.060581Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-03-06T01:02:54.061579Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-03-06T01:02:54.062576Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-03-06T01:02:54.063573Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-03-06T01:02:54.063573Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-03-06T01:02:54.064571Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-03-06T01:02:54.065568Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-03-06T01:02:54.066565Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-03-06T01:02:54.067563Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-03-06T01:02:54.068560Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-03-06T01:02:54.069557Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-03-06T01:02:54.070554Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-03-06T01:02:54.071552Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-03-06T01:02:54.071552Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-03-06T01:02:54.072549Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-03-06T01:02:54.073547Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-03-06T01:02:54.074544Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-03-06T01:02:54.075541Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-03-06T01:02:54.076539Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-03-06T01:02:54.076539Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-03-06T01:02:54.077536Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-03-06T01:02:54.078564Z 0 [Note] InnoDB: Starting shutdown...
+2020-03-06T01:02:54.179984Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:02:54.187753Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200306  9:02:54
+2020-03-06T01:02:55.324415Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2535615
+2020-03-06T01:02:55.325768Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-06T01:02:55.326439Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-03-06T01:02:55.327436Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:02:55.327436Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-03-06T01:02:55.328434Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-03-06T01:02:55.329059Z 0 [Note] Shutting down plugin 'binlog'
+2020-03-06T01:02:55.330008Z 0 [Note] MySQL: Shutdown complete
+
+2020-03-06T01:04:04.769505Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:04:04.769505Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:04:04.770503Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 7700 ...
+2020-03-06T01:04:04.777484Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:04:04.777484Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:04:04.778481Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:04:04.779479Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:04:04.780476Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:04:04.780476Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:04:04.783468Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:04:04.788455Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:04:04.809262Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-06T01:04:04.880425Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-06T01:04:04.882422Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-06T01:04:04.891467Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-06T01:04:04.893495Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-06T01:04:04.893495Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-06T01:04:04.894492Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-06T01:04:04.946287Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535615
+2020-03-06T01:04:04.948285Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:04:04.948285Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-06T01:04:04.962248Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-06T01:04:04.964241Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-06T01:04:04.965239Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200306  9:04:04
+2020-03-06T01:04:04.966236Z 0 [Note] IPv6 is available.
+2020-03-06T01:04:04.968232Z 0 [Note]   - '::' resolves to '::';
+2020-03-06T01:04:04.969229Z 0 [Note] Server socket created on IP: '::'.
+2020-03-06T01:04:05.001253Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-03-06T01:04:05.001253Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-03-06T01:04:05.003258Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2020-03-06T01:04:05.004251Z 0 [Note] Beginning of list of non-natively partitioned tables
+2020-03-06T01:04:05.021201Z 0 [Note] End of list of non-natively partitioned tables
+2020-03-06T01:04:47.992492Z 0 [Note] MySQL: Normal shutdown
+
+2020-03-06T01:04:47.993459Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-03-06T01:04:47.995491Z 0 [Note] Shutting down slave threads
+2020-03-06T01:04:47.995491Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-03-06T01:04:47.996482Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-03-06T01:04:47.998478Z 0 [Note] Binlog end
+2020-03-06T01:04:47.999445Z 0 [Note] Shutting down plugin 'ngram'
+2020-03-06T01:04:48.000486Z 0 [Note] Shutting down plugin 'partition'
+2020-03-06T01:04:48.001470Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-03-06T01:04:48.002465Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-03-06T01:04:48.003462Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-03-06T01:04:48.004460Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-03-06T01:04:48.005461Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-03-06T01:04:48.005461Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-03-06T01:04:48.006457Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-03-06T01:04:48.007452Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-03-06T01:04:48.008449Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-03-06T01:04:48.009448Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-03-06T01:04:48.010450Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-03-06T01:04:48.011441Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-03-06T01:04:48.012438Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-03-06T01:04:48.013436Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-03-06T01:04:48.014440Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-03-06T01:04:48.015431Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-03-06T01:04:48.016429Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-03-06T01:04:48.017439Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-03-06T01:04:48.018423Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-03-06T01:04:48.019445Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-03-06T01:04:48.020739Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-03-06T01:04:48.021418Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-03-06T01:04:48.022414Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-03-06T01:04:48.023409Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-03-06T01:04:48.024407Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-03-06T01:04:48.025405Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-03-06T01:04:48.026401Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-03-06T01:04:48.027398Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-03-06T01:04:48.028400Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-03-06T01:04:48.029391Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-03-06T01:04:48.030392Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-03-06T01:04:48.030392Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-03-06T01:04:48.031386Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-03-06T01:04:48.032384Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-03-06T01:04:48.032384Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-03-06T01:04:48.033382Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-03-06T01:04:48.034378Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-03-06T01:04:48.035345Z 0 [Note] InnoDB: Starting shutdown...
+2020-03-06T01:04:48.136786Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:04:48.142813Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200306  9:04:48
+2020-03-06T01:04:49.276098Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2535643
+2020-03-06T01:04:49.277126Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-06T01:04:49.278092Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-03-06T01:04:49.278092Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:04:49.278092Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-03-06T01:04:49.279122Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-03-06T01:04:49.280120Z 0 [Note] Shutting down plugin 'binlog'
+2020-03-06T01:04:49.281084Z 0 [Note] MySQL: Shutdown complete
+
+2020-03-06T01:05:36.300608Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:05:36.300608Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:05:36.301583Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 13628 ...
+2020-03-06T01:05:36.308587Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:05:36.309584Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:05:36.309584Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:05:36.310584Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:05:36.311579Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:05:36.312575Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:05:36.314570Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:05:36.319557Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:05:36.340073Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-06T01:05:36.390325Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-06T01:05:36.391356Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-06T01:05:36.399373Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-06T01:05:36.400375Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-06T01:05:36.401372Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-06T01:05:36.402369Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-06T01:05:36.454582Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535643
+2020-03-06T01:05:36.456582Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:05:36.456582Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-06T01:05:36.472577Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-06T01:05:36.476569Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-06T01:05:36.479561Z 0 [Note] IPv6 is available.
+2020-03-06T01:05:36.480557Z 0 [Note]   - '::' resolves to '::';
+2020-03-06T01:05:36.481554Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200306  9:05:36
+2020-03-06T01:05:36.481554Z 0 [Note] Server socket created on IP: '::'.
+2020-03-06T01:05:36.511472Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-03-06T01:05:36.512432Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-03-06T01:05:36.513464Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2020-03-06T01:05:36.515423Z 0 [Note] Beginning of list of non-natively partitioned tables
+2020-03-06T01:05:36.531413Z 0 [Note] End of list of non-natively partitioned tables
+2020-03-06T01:12:16.177995Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:12:16.177995Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:12:16.177995Z 0 [Note] mysqld (mysqld 5.7.18) starting as process 11424 ...
+2020-03-06T01:12:16.186974Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:12:16.187971Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:12:16.187971Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:12:16.188936Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:12:16.189936Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:12:16.190990Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:12:16.193923Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:12:16.199907Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:12:16.212872Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2020-03-06T01:12:16.213869Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2020-03-06T01:12:16.214867Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2020-03-06T01:12:16.518776Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-03-06T01:12:16.521586Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-03-06T01:12:16.525576Z 0 [ERROR] Failed to initialize plugins.
+2020-03-06T01:12:16.527571Z 0 [ERROR] Aborting
+
+2020-03-06T01:12:16.529565Z 0 [Note] Binlog end
+2020-03-06T01:12:16.531561Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:12:16.534552Z 0 [Note] mysqld: Shutdown complete
+
+2020-03-06T01:17:25.808315Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:17:25.808315Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:17:25.808315Z 0 [Note] mysqld (mysqld 5.7.18) starting as process 16476 ...
+2020-03-06T01:17:25.820297Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:17:25.821278Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:17:25.822275Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:17:25.823273Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:17:25.826265Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:17:25.827262Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:17:25.831251Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:17:25.840230Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:17:25.854766Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2020-03-06T01:17:25.855762Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2020-03-06T01:17:25.856761Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2020-03-06T01:17:26.060316Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-03-06T01:17:26.060316Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-03-06T01:17:26.061315Z 0 [ERROR] Failed to initialize plugins.
+2020-03-06T01:17:26.062316Z 0 [ERROR] Aborting
+
+2020-03-06T01:17:26.062316Z 0 [Note] Binlog end
+2020-03-06T01:17:26.062316Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:17:26.064271Z 0 [Note] mysqld: Shutdown complete
+
+2020-03-06T01:19:45.006602Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:19:45.006602Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:19:45.006602Z 0 [Note] mysqld (mysqld 5.7.18) starting as process 18400 ...
+2020-03-06T01:19:45.014546Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:19:45.014546Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:19:45.015582Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:19:45.016574Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:19:45.017571Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:19:45.017571Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:19:45.020565Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:19:45.025554Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:19:45.040485Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2020-03-06T01:19:45.041474Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2020-03-06T01:19:45.042507Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2020-03-06T01:19:45.345782Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2020-03-06T01:19:45.348578Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2020-03-06T01:19:45.351567Z 0 [ERROR] Failed to initialize plugins.
+2020-03-06T01:19:45.354572Z 0 [ERROR] Aborting
+
+2020-03-06T01:19:45.356552Z 0 [Note] Binlog end
+2020-03-06T01:19:45.358547Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:19:45.361504Z 0 [Note] mysqld: Shutdown complete
+
+2020-03-06T01:30:23.549943Z 0 [Note] MySQL: Normal shutdown
+
+2020-03-06T01:30:23.549943Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-03-06T01:30:23.549943Z 0 [Note] Shutting down slave threads
+2020-03-06T01:30:23.549943Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-03-06T01:30:23.549943Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-03-06T01:30:23.565565Z 0 [Note] Binlog end
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'ngram'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'partition'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-03-06T01:30:23.566071Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-03-06T01:30:23.581697Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-03-06T01:30:23.581697Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-03-06T01:30:23.581697Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-03-06T01:30:23.581697Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-03-06T01:30:23.585703Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-03-06T01:30:23.601329Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-03-06T01:30:23.601329Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-03-06T01:30:23.601329Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-03-06T01:30:23.601329Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-03-06T01:30:23.601329Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-03-06T01:30:23.601329Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-03-06T01:30:23.601329Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-03-06T01:30:23.601329Z 0 [Note] InnoDB: Starting shutdown...
+2020-03-06T01:30:23.710679Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:30:23.710679Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200306  9:30:23
+2020-03-06T01:30:24.820729Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2535671
+2020-03-06T01:30:24.820729Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-06T01:30:24.820729Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-03-06T01:30:24.820729Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:30:24.820729Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-03-06T01:30:24.820729Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-03-06T01:30:24.820729Z 0 [Note] Shutting down plugin 'binlog'
+2020-03-06T01:30:24.820729Z 0 [Note] MySQL: Shutdown complete
+
+2020-03-06T01:31:06.770858Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-06T01:31:06.770858Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-06T01:31:06.770858Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 5512 ...
+2020-03-06T01:31:06.871748Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-06T01:31:06.901990Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-06T01:31:06.910029Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-06T01:31:06.912063Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-06T01:31:06.912063Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-06T01:31:06.950371Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-06T01:31:06.992735Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-06T01:31:07.030987Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-06T01:31:07.154016Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-06T01:31:07.355578Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-06T01:31:07.355578Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-06T01:31:07.375730Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-06T01:31:07.383801Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-06T01:31:07.385834Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-06T01:31:07.393872Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-06T01:31:07.466473Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535671
+2020-03-06T01:31:07.466473Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-06T01:31:07.466473Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:31:07.516859Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-06T01:31:07.516859Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-06T01:31:07.526955Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200306  9:31:07
+2020-03-06T01:31:07.526955Z 0 [Note] IPv6 is available.
+2020-03-06T01:31:07.534992Z 0 [Note]   - '::' resolves to '::';
+2020-03-06T01:31:07.537026Z 0 [Note] Server socket created on IP: '::'.
+2020-03-06T01:31:07.819280Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-03-06T01:31:07.827347Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-03-06T01:31:07.849524Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2020-03-06T01:31:07.869674Z 0 [Note] Beginning of list of non-natively partitioned tables
+2020-03-06T01:31:08.059452Z 0 [Note] End of list of non-natively partitioned tables
+2020-03-06T01:56:01.923351Z 0 [Note] MySQL: Normal shutdown
+
+2020-03-06T01:56:01.924349Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-03-06T01:56:01.925544Z 0 [Note] Shutting down slave threads
+2020-03-06T01:56:01.925544Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-03-06T01:56:01.926542Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-03-06T01:56:01.927539Z 0 [Note] Binlog end
+2020-03-06T01:56:01.928536Z 0 [Note] Shutting down plugin 'ngram'
+2020-03-06T01:56:01.928536Z 0 [Note] Shutting down plugin 'partition'
+2020-03-06T01:56:01.929566Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-03-06T01:56:01.929566Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-03-06T01:56:01.930561Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-03-06T01:56:01.930561Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-03-06T01:56:01.931561Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-03-06T01:56:01.932558Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-03-06T01:56:01.932558Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-03-06T01:56:01.933559Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-03-06T01:56:01.933559Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-03-06T01:56:01.934553Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-03-06T01:56:01.935552Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-03-06T01:56:01.935552Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-03-06T01:56:01.936548Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-03-06T01:56:01.936548Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-03-06T01:56:01.937544Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-03-06T01:56:01.938550Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-03-06T01:56:01.939215Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-03-06T01:56:01.939215Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-03-06T01:56:01.940247Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-03-06T01:56:01.940247Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-03-06T01:56:01.941242Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-03-06T01:56:01.942239Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-03-06T01:56:01.942239Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-03-06T01:56:01.943234Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-03-06T01:56:01.943234Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-03-06T01:56:01.944234Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-03-06T01:56:01.944234Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-03-06T01:56:01.945231Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-03-06T01:56:01.946231Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-03-06T01:56:01.946231Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-03-06T01:56:01.947226Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-03-06T01:56:01.947226Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-03-06T01:56:01.948226Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-03-06T01:56:01.948226Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-03-06T01:56:01.949221Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-03-06T01:56:01.949221Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-03-06T01:56:01.950220Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-03-06T01:56:01.951229Z 0 [Note] InnoDB: Starting shutdown...
+2020-03-06T01:56:02.051932Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-06T01:56:02.058917Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200306  9:56:02
+2020-03-06T01:56:03.082084Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2535699
+2020-03-06T01:56:03.083111Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-06T01:56:03.084110Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-03-06T01:56:03.084110Z 0 [Note] Shutting down plugin 'CSV'
+2020-03-06T01:56:03.085105Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-03-06T01:56:03.085105Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-03-06T01:56:03.086108Z 0 [Note] Shutting down plugin 'binlog'
+2020-03-06T01:56:03.087325Z 0 [Note] MySQL: Shutdown complete
+
+2020-03-16T02:03:28.824467Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-16T02:03:28.826462Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-16T02:03:28.826462Z 0 [Note] D:\wnmp\mySql\bin\mysqld (mysqld 5.7.18) starting as process 26740 ...
+2020-03-16T02:27:06.037992Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-03-16T02:27:06.037992Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-03-16T02:27:06.037992Z 0 [Note] MySQL (mysqld 5.7.18) starting as process 40732 ...
+2020-03-16T02:27:06.045971Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-16T02:27:06.045971Z 0 [Note] InnoDB: Uses event mutexes
+2020-03-16T02:27:06.047003Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-03-16T02:27:06.047966Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-16T02:27:06.048962Z 0 [Note] InnoDB: Number of pools: 1
+2020-03-16T02:27:06.049960Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-16T02:27:06.051956Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-03-16T02:27:06.057939Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-16T02:27:06.083905Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-16T02:27:06.086863Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2535718
+2020-03-16T02:27:06.086863Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2535727
+2020-03-16T02:27:06.088856Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2535727
+2020-03-16T02:27:06.089888Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-03-16T02:27:06.089888Z 0 [Note] InnoDB: Starting crash recovery.
+2020-03-16T02:27:06.273663Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-03-16T02:27:06.273663Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-03-16T02:27:06.275658Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-03-16T02:27:06.282617Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-03-16T02:27:06.284601Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-03-16T02:27:06.285598Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-03-16T02:27:06.286595Z 0 [Note] InnoDB: Waiting for purge to start
+2020-03-16T02:27:06.337689Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 2535727
+2020-03-16T02:27:06.338491Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-16T02:27:06.338491Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\wnmp\mysql\data\ib_buffer_pool
+2020-03-16T02:27:06.347435Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-03-16T02:27:06.348476Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-03-16T02:27:06.349429Z 0 [Note] IPv6 is available.
+2020-03-16T02:27:06.349429Z 0 [Note]   - '::' resolves to '::';
+2020-03-16T02:27:06.350478Z 0 [Note] Server socket created on IP: '::'.
+2020-03-16T02:27:06.356409Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200316 10:27:06
+2020-03-16T02:27:06.422234Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-03-16T02:27:06.423232Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-03-16T02:27:06.424229Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2020-03-16T02:27:06.426223Z 0 [Note] Beginning of list of non-natively partitioned tables
+2020-03-16T02:27:06.451189Z 0 [Note] End of list of non-natively partitioned tables
+2020-03-16T02:27:12.721840Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2020-03-16T02:27:15.972896Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)

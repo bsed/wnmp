@@ -1,0 +1,12 @@
+mysql/data/*
+mysql/lib/*
+mysql/bin/*
+mysql/docs/*
+mysql/include/*
+mysql/share/*
+logs/*
+debug/*
+temp/*
+!nginx/conf/vhost/sql.conf
+!nginx/conf/vhost/default.conf
+www/*
